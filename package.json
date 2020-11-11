@@ -15,5 +15,11 @@
   "keywords": [
     "buffer",
     "buffer from"
-  ]
+  ],
+  "wilton": {
+    "excludes": [
+      "readme.md",
+      "test.js"
+    ]
+  }
 }

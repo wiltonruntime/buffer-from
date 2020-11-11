@@ -1,3 +1,4 @@
+define(function(localRequire, exports, module) { var requireOrig = require; require = localRequire;
 var toString = Object.prototype.toString
 
 var isModern = (
@@ -67,3 +68,5 @@ function bufferFrom (value, encodingOrOffset, length) {
 }
 
 module.exports = bufferFrom
+
+require = requireOrig;});
